@@ -15,10 +15,10 @@
         "main": "apps/main/src/main.tsx",
         "polyfills": "apps/main/src/polyfills.ts",
         "tsConfig": "apps/main/tsconfig.app.json",
-        "assets": ["apps/main/src/favicon.ico", "apps/main/src/assets"],
+        "assets": ["apps/main/src/favicon.ico"],
         "styles": ["apps/main/src/styles.scss"],
         "scripts": [],
-        "webpackConfig": "@nrwl/react/plugins/webpack"
+        "webpackConfig": "apps/main/webpack.js"
       },
       "configurations": {
         "production": {
